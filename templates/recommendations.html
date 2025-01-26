@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Recommended Songs</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Recommended Songs</h1>
+        <ul>
+            {% for song in songs %}
+                <li>
+                    <span>{{ song['Song Name'] }} - {{ song['Artist'] }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="/">Back to Search</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* Add background image */
+body {
+    font-family: Arial, sans-serif;
+    background: url('../static/music.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    background: rgba(255, 255, 255, 0.8); /* Slight transparency for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styles */
+h1 {
+    color: #5c5726; /* Dark golden color */
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* List styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e9ecef;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Back link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
