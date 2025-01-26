@@ -90,7 +90,7 @@ You can expand the dataset by adding more songs in the CSV file.
 
 ## 🎨 UI Preview
 
-![Music Recommendation UI](static/music.jpg)
+![Music Recommendation UI](https://github.com/ShrihariKasar/Music-Recommendation-System/blob/main/static/UI%20Interface.png)
 
 ---
 
