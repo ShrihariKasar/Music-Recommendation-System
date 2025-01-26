@@ -1,6 +1,3 @@
-
-
-```md
 # 🎵 Music Recommendation System
 
 A simple music recommendation system built using Python and Flask that suggests songs based on user preferences. The project uses a CSV dataset of songs and provides recommendations based on the entered genre.
