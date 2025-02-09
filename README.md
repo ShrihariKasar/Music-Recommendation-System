@@ -46,7 +46,7 @@ Music-Recommendation-System/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/music-recommendation-system.git
+   git clone https://github.com/ShrihariKasar/music-recommendation-system.git
    cd music-recommendation-system
    ```
 
